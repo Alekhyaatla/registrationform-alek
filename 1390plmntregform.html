@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>regform</title>
+</head>
+<body bgcolor="pink">
+<h1>Placement Registration form</h1>
+<form >
+	<input type="radio" name="gender" value="Mr"><label>Mr</label>
+	<input type="radio" name="gender" value="Mrs"><label>Mrs</label>
+	<input type="radio" name="gender" value="Ms"><label>Ms</label><br><br>
+	<label>Student ID</label><input type="text" name="stdid"><br><br>
+	<label>First name</label><input type="text" name="fname"><br><br>
+	<label>Last name</label><input type="text" name="lname"><br><br>
+	<label>Userame</label><input type="text" name="uname"><br><br>
+	<label>Password</label><input type="password" name="pwd"><br><br>
+	<label>Adress</label>
+	<textarea rows="5" cols="30">enter here....</textarea><br><br>
+	<label>State</label>
+	<select name="state">
+	<option>Telangana</option>
+	<option>AndraPradesh</option>
+	<option>Maharastra</option>
+	<option>Tamilnadu</option>
+	<option>Kerala</option>
+	</select>
+	<br><br>
+	<label>Upload Photo: </label>
+	<input type="file"><br><br>
+	<label>Mobile</label>
+	<select name="m" id="mm">
+      <option>+91</option>
+      <option>+92</option>
+      <option>+93</option></select>
+	<input type="tel" pattern="[0-9]{5}-[0-9]{5}" name="m" id="mm"> <br><br>
+	<label>Languages known: </label>
+	<input type="checkbox"></input><label>Telugu</label>
+        <input type="checkbox"></input><label>English</label><br><br>
+        <label>Additional info</label>
+        <textarea rows="5" cols="30">Optional</textarea>
+        <br><br>
+        <input type="checkbox"></input><label>Accept</label><br><br>
+        <input type="submit" value="SUBMIT">
+        <input type="submit" value="RESET">
+</form>
+</body>
+</html>
